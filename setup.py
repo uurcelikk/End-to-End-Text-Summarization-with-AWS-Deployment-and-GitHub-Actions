@@ -1,6 +1,6 @@
 import setuptools
 
-with open("README.md", "r",encoding = "utf-8") as f:
+with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setuptools.setup(
@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/uurcelikk/Text-Summarization.git",
     project_urls={
-        "Bug Tracker": "https://github.com/uurcelikk/Text-Summarization.git/issues" 
+        "Bug Tracker": "https://github.com/uurcelikk/Text-Summarization.git/issues"
     },
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
@@ -21,5 +21,5 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-    ]
+    ],
 )
