@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: text-summarization
+Version: 0.0.0
+Summary: An end-to-end text summarizer package
+Home-page: https://github.com/uurcelikk/Text-Summarization.git
+Author: uurcelikk
+Author-email: uurcelikk98@gmail.com
+Project-URL: Bug Tracker, https://github.com/uurcelikk/Text-Summarization.git/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Text Summarization
