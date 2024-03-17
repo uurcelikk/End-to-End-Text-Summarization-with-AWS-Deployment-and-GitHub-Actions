@@ -7,6 +7,10 @@ from box import ConfigBox
 from pathlib import Path
 from typing import Any
 
+#dict has not attribute, with box, you can access the value by attribute
+
+#decorator to ensure annotations are used in the function, because ensure_annotations is not a built-in function
+#ensure_annotations is a decorator that checks if the function is annotated with type hints
 
 @ensure_annotations
 def read_yaml(filepath: Path) -> ConfigBox:
