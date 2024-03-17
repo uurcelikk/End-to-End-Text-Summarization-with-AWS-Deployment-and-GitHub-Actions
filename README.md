@@ -1,7 +1,7 @@
 
 # End-to-end Text Summarization Project
 
-This repository contains code and configurations for an end-to-end Text Summarization project. 
+This repository contains code and configurations for an End-to-End Text Summarization with AWS Deployment and GitHub Actions. 
 
 
 ## Getting Started
