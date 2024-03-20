@@ -3,7 +3,7 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/uurcelikk/End-to-End-Text-Summarization-with-AWS-Deployment-and-GitHub-Actions/tree/main/dataset.zip
+  source_URL: https://github.com/uurcelikk/ML_Basics/blob/main/dataset.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 

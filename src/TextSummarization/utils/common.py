@@ -1,11 +1,13 @@
-import os 
-from box.exceptions import BoxValueError
-import yaml
-from src.TextSummarization.logging import logger
-from ensure import ensure_annotations
-from box import ConfigBox
+import os
 from pathlib import Path
 from typing import Any
+
+import yaml
+from box import ConfigBox
+from box.exceptions import BoxValueError
+from ensure import ensure_annotations
+
+from src.TextSummarization.logging import logger
 
 #dict has not attribute, with box, you can access the value by attribute
 
