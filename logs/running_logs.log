@@ -31,3 +31,7 @@ X-GitHub-Request-Id: FA00:FC120:B4861A:B6C152:65FB4411
 connection: close
 
 ]
+[2024-03-21 21:39:31,317: INFO: yaml file: config\config.yaml is read successfully]
+[2024-03-21 21:39:31,323: INFO: yaml file: params.yaml is read successfully]
+[2024-03-21 23:13:31,693: INFO: yaml file: config\config.yaml is read successfully]
+[2024-03-21 23:13:31,695: INFO: yaml file: params.yaml is read successfully]
