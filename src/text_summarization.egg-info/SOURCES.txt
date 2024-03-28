@@ -2,11 +2,16 @@ README.md
 setup.py
 src/TextSummarization/__init__.py
 src/TextSummarization/components/__init__.py
+src/TextSummarization/components/data_ingestion.py
+src/TextSummarization/components/data_transformation.py
+src/TextSummarization/components/data_validation.py
 src/TextSummarization/config/__init__.py
 src/TextSummarization/config/configuration.py
 src/TextSummarization/constants/__init__.py
 src/TextSummarization/entity/__init__.py
-src/TextSummarization/entity/config_entity.py
+src/TextSummarization/logging/__init__.py
+src/TextSummarization/pipeline/_01_data_ingestion.py
+src/TextSummarization/pipeline/_02_data_validation.py
 src/TextSummarization/pipeline/__init__.py
 src/TextSummarization/utils/__init__.py
 src/TextSummarization/utils/common.py
