@@ -21,7 +21,7 @@ class DataIngestion:
                 url = self.config.source_URL,
                 filename = self.config.local_data_file
             )
-            logger.info(f"{filename} download! with following info: \n{headers}")
+            logger.info(f"{filename} download, with following info: \n{headers}")
         else:
             logger.info(f"File already exists of size: {get_size(Path(self.config.local_data_file))}")  
 
