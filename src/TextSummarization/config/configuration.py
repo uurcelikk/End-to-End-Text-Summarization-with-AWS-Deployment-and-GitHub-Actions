@@ -5,6 +5,7 @@ from src.TextSummarization.entity import (DataIngestionConfig,
                                           DataTransformationConfig)
 
 
+
 class ConfigurationManager:
     def __init__(
         self,
@@ -31,6 +32,8 @@ class ConfigurationManager:
         )
 
         return data_ingestion_config
+    
+
 
     def get_data_validation_config(self) -> DataValidationConfig:
         config = self.config.data_validation
@@ -58,4 +61,3 @@ class ConfigurationManager:
         )
 
         return data_transformation_config
-    
