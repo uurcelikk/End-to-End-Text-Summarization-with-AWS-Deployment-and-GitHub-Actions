@@ -1,14 +1,21 @@
 artifacts_root: artifacts
 
-
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/uurcelikk/ML_Basics/blob/main/dataset.zip
+  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/summarizer-data.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 
 
+
 data_validation:
   root_dir: artifacts/data_validation
-  STATS_FILE: artifacts/data_validation/status.txt
-  ALL_RECORDS_FILE: ["train","test","validation"]
+  STATUS_FILE: artifacts/data_validation/status.txt
+  ALL_REQUIRED_FILES: ["train", "test", "validation"]
+
+
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  data_path: artifacts/data_ingestion/samsum_dataset
+  tokenizer_name: facebook/bart-large-xsum"
