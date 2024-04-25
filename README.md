@@ -1,6 +1,5 @@
 
-# End-to-end Text Summarization Project
-
+#  Text Summarization Project with BART
 This repository contains code and configurations for an End-to-End Text Summarization with AWS Deployment and GitHub Actions. 
 
 ## Workflows
